@@ -1,0 +1,44 @@
+frontend/
+├── public/
+├── src/
+│   ├── api/
+│   │   └── axios.js
+│   ├── assets/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   ├── dashboard/
+│   │   │   ├── ScoreEntry.jsx
+│   │   │   ├── ScoreList.jsx
+│   │   │   ├── CharitySelector.jsx
+│   │   │   ├── DrawParticipation.jsx
+│   │   │   └── WinningsOverview.jsx
+│   │   └── admin/
+│   │       ├── UserTable.jsx
+│   │       ├── DrawManager.jsx
+│   │       ├── CharityManager.jsx
+│   │       └── WinnerVerification.jsx
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Charities.jsx
+│   │   ├── Subscribe.jsx
+│   │   └── admin/
+│   │       └── AdminDashboard.jsx
+│   ├── hooks/
+│   │   └── useAuth.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .env
+├── index.html
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json
